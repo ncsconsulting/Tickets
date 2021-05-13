@@ -23,7 +23,10 @@
 
                     <div class="form-group">
                         <label class="form-label" for="tick_estado">ticket estado</label>
-                        <input type="text" class="form-control" id="tick_estado" name="tick_estado" placeholder="Estado de ticket." required>
+                        <select class="select2" id="tick_estado" name="tick_estado">
+                            <option value="Abierto">Abierto</option>
+                            <option value="Cerrado">Cerrado</option>
+                        </select>
                     </div>
 
                     <div class="form-group">
